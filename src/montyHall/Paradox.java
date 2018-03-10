@@ -4,7 +4,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * In this program I will try to prove the Paradox of Monty Hall.
+ * This application proves the Paradox of Monty Hall.
+ * 
  * 
  * @author almazbekbegaliev
  *
@@ -28,13 +29,13 @@ public class Paradox {
 		System.out.println(
 				"\t\tWelcome to the Monty Halls paradox !!! \nYou have three doors, there is one CAR behinde one door, "
 						+ "and two GOATS behind others. \n\t\tYour goal is to win the CAR.");
-		while (count < 10) {
+		while (count < 100) {
 			count++;
 			bingo();
-			Scanner scan = new Scanner(System.in);
-			System.out.println(
-					"\n\t\t1. To choose the door \n\t\t2. To see Number of bingos \n\t\t3. To QUITE the game\n");
-			//int function = scan.nextInt();
+//			Scanner scan = new Scanner(System.in);
+//			System.out.println(
+//					"\n\t\t1. To choose the door \n\t\t2. To see Number of bingos \n\t\t3. To QUITE the game\n");
+//			int function = scan.nextInt();
 			int function =1;
 			switch (function) {
 			case 1:
